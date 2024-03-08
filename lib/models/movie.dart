@@ -27,13 +27,13 @@ class Movie {
   }
   Map<String, dynamic> toJson() {
     return {
-      'id' : id,
+      'id': id,
       'title': title,
       'overview': overview,
-      'posterPath':posterPath,
-      'backdropPath': backdropPath,
-      'releaseDate':releaseDate,
-      'voteAverage':voteAverage,
+      'poster_path': posterPath,
+      'backdrop_path': backdropPath,
+      'release_date': releaseDate,
+      'vote_average': voteAverage,
     };
   }
 }
